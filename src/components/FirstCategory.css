@@ -1,0 +1,30 @@
+
+
+.first_category {
+    width: auto;
+    height: 1000px;
+    /* border: 10px solid midnightblue; */
+    padding: 0% 23%;
+    display: flex;
+    /* flex-flow: column wrap; */
+}
+
+.first_category_row1, .first_category_row2 {
+    flex-flow: row wrap;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.study, .practice, .material, .leveltest {
+    width: 300px;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+}
