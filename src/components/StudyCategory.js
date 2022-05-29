@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./StudyCategory.css";
+import Gotomain from "../components/Gotomain"
 
 function StudyCategory() {
     return (
@@ -19,7 +21,7 @@ function StudyCategory() {
                     <Link to="/study/final">완성</Link>
                 </div>
             </div>
-            <Link to="/">처음으로 돌아가기</Link>
+            <Gotomain />
         {/* </BrowserRouter> */}
         </>
     );
